@@ -13,7 +13,7 @@ const Albums = ({ artist }) => {
 
   return (
     <>
-    {console.log(albums)};
+    {console.log(albums)}
       {albums
         .filter((album, index) => index < 4)
         .map((album) => (
